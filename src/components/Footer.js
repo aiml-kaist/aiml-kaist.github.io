@@ -8,21 +8,32 @@ export default class Footer extends Component {
         <div className="u-width-container">
           <div className="c-footer__body">
             <div className="c-footer__text">
-              <div className="c-footer__text-title">
-                Contact
+              <div className="c-footer__section">
+                <div className="c-footer__text-title">
+                  Contact
+                </div>
+                Email Addr. ses75@kaist.ac.kr<br />
+                Tel. +82 42 350 8485<br />
+                MARS AI ERC, Room 4401, E3-1 Computer Science Building,<br />
+                KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon 34141, South Korea<br />
               </div>
-              이메일 ses75@kaist.ac.kr<br />
-              전화번호 (+82)042 350 8485<br />
-              34141 대전광역시 유성구 대학로 291 한국과학기술원 전산학부 E3-1 4401호<br />
-              MARS 인공지능 통합 연구센터 신은순 앞<br />
+              <div className="c-footer__section">
+                <div className="c-footer__text-title">
+                  Sponsors
+                </div>
+                Industry Partners (TBD)<br />
+                <a className="c-footer__link" href="https://ml.kaist.ac.kr/" target="_blank">
+                  MARS AI ERC (Director: Alice Oh)
+                </a><br />
+              </div>
             </div>
             <div className="c-footer__links">
               <a
                 className="c-footer__link"
-                href="https://github.com/mars-ai/mars-ai.github.io"
+                href="https://github.com/aiml-kaist/aiml-kaist.github.io"
                 target="_blank"
               >
-                관리자
+                Admin
               </a>
             </div>
           </div>

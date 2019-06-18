@@ -23,15 +23,15 @@ class Home extends Component {
         <div className="c-home__section">
           <People />
         </div>
-        <div className="c-home__section">
+        {/* <div className="c-home__section">
           <SubPage />
-        </div>
+        </div> */}
       </div>
     );
   }
 }
 
-// https://sheets.googleapis.com/v4/spreadsheets/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/values/Main!A1:G?key=AIzaSyB9V7PkWIqFbGxchz4m7tkKf7z5aieCoPM
+// https://sheets.googleapis.com/v4/spreadsheets/1VbnLcMGOiZaFU8G85owHAsUTmZl_-fSkpo-904DQr-k/values/Main!A1:G?key=AIzaSyB9V7PkWIqFbGxchz4m7tkKf7z5aieCoPM
 
 export default (...props) => {
   return (

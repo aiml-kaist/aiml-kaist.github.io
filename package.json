@@ -1,8 +1,8 @@
 {
-  "name": "mars-ai.github.io",
+  "name": "aiml-kaist.github.io",
   "version": "0.1.0",
-  "description": "A homepage of Center for MARS Artificial Intelligence Research",
-  "repository": "git@github.com:mars-ai/mars-ai.github.io.git",
+  "description": "A homepage of AIML@KAIST group",
+  "repository": "git@github.com:aiml-kaist/aiml-kaist.github.io.git",
   "author": "Jeongmin Byun <jmbyun91@gmail.com>",
   "license": "MIT",
   "engines": {

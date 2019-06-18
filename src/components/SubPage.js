@@ -5,7 +5,7 @@ import NotFound from './NotFound';
 import config from '../../config.json';
 import { Redirect } from 'react-router-dom';
 
-const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/values/Documents!A2:G?key=${config.googleApiKey}`;
+const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1VbnLcMGOiZaFU8G85owHAsUTmZl_-fSkpo-904DQr-k/values/Documents!A2:G?key=${config.googleApiKey}`;
 
 class SubPage extends Component {
 
@@ -42,7 +42,7 @@ class SubPage extends Component {
             Events
           </div>
           <div className="u-section-sub-title">
-            MARS AI 센터에서 주최하는 행사 페이지입니다.
+            Events Hosted by AIML@KAIST
           </div>
           <div className="c-sub-page__items">
             {this.getSubPage().map(this.renderSubPage)}

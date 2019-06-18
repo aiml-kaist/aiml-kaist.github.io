@@ -52,20 +52,20 @@ export default class Header extends Component {
       >
         <div className="c-header__content u-width-container">
           <div className="c-header__title">
-            <div className="c-header__title-logo">
+            {/* <div className="c-header__title-logo">
               <img src="/public/images/logo.png" />
-            </div>
+            </div> */}
             <a 
               className="c-header__title-text"
               href="/"
             >
-              MARS AI Research
+              AIML@KAIST
             </a>
             <a
               className="c-header__title-text--mobile"
               href="/"
             >
-              MARS AI Research
+              AIML@KAIST
             </a>
           </div>
           <div 
@@ -93,12 +93,12 @@ export default class Header extends Component {
             >
               People
             </a>
-            <a
+            {/* <a
               className="c-header__menu-item"
               onClick={() => this.scrollTo('c-sub-page')}
             >
               Events
-            </a>
+            </a> */}
             <a
               className="c-header__menu-item"
               onClick={() => this.scrollTo('c-footer')}

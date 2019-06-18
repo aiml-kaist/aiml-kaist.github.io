@@ -1,19 +1,18 @@
 .c-sub-header {
-  padding: 10px+50px 0 30px 0;
-  background: linear-gradient(135deg, color('black') 22px, color('dark-grey') 22px, color('dark-grey') 23px, transparent 23px, transparent 67px, color('dark-grey') 67px, color('dark-grey') 68px, transparent 68px), linear-gradient(225deg, color('black') 22px, color('dark-grey') 22px, color('dark-grey') 23px, transparent 23px, transparent 67px, color('dark-grey') 67px, color('dark-grey') 68px, transparent 68px)0 64px;
-  background-color: color('black');
+  padding: 10px+50px 0 50px 0;
+  background-color: color('main');
   background-size: 64px 128px;
-  color: color('white');
+  color: color('light-grey');
 
   &__title {
     padding: 12px 0;
-    font-size: 44px;
+    font-size: 36px;
     font-weight: $bold;
     line-height: 1.6em;
   }
 
   &__sub-title {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.2em;
   }
 }

@@ -13,18 +13,9 @@
     flex: 0 1 auto;
     margin: 12px 12px;
     padding: 20px 20px;
-    background-color: color('blue');
+    background-color: color('main');
     color: color('white');
     max-width: 400px;
-  }
-
-  &__card-title {
-    margin-bottom: 12px;
-    font-size: 18px;
-    font-weight: $bold;
-  }
-
-  &__card-body {
     font-size: 14px;
     line-height: 1.5em;
   }

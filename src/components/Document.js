@@ -5,7 +5,7 @@ import NotFound from './NotFound';
 import config from '../../config.json';
 import { Redirect } from 'react-router-dom';
 
-const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/values/Documents!A2:G?key=${config.googleApiKey}`;
+const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1VbnLcMGOiZaFU8G85owHAsUTmZl_-fSkpo-904DQr-k/values/Documents!A2:G?key=${config.googleApiKey}`;
 
 class Document extends Component {
     getDocument(path) {

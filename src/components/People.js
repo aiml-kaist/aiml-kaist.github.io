@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import DataLoader from './DataLoader';
 import config from '../../config.json';
 
-const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/values/People!A2:G?key=${config.googleApiKey}`;
+const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1VbnLcMGOiZaFU8G85owHAsUTmZl_-fSkpo-904DQr-k/values/People!A2:G?key=${config.googleApiKey}`;
 
 class People extends Component {
   getPeople() {
@@ -48,7 +48,7 @@ class People extends Component {
             People
           </div>
           <div className="u-section-sub-title">
-            MARS AI 센터 소속 연구원은 다음과 같습니다.
+            Participating Faculty
           </div>
           <div className="c-people__cards">
             {this.getPeople().map(this.renderCard)}
